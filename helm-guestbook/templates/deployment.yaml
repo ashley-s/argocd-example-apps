@@ -26,7 +26,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
             - name: "A"
-            - value: "B"
+              value: "B"
           ports:
             - name: http
               containerPort: 80
